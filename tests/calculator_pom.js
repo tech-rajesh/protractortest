@@ -11,9 +11,7 @@ describe('demo calulator test', function () {
         homepage.enterSecondNumber('9')
         browser.sleep(2000)
         homepage.clickGo();
-
-        
-        browser.sleep(2000)
+		browser.sleep(4000)
 
     });
 
@@ -27,9 +25,7 @@ it('addition test 2 digit number', function () {
         homepage.enterSecondNumber('19')
         browser.sleep(2000)
         homepage.clickGo();
-
-        
-        browser.sleep(5000)
+		browser.sleep(5000)
 
     });
 
@@ -42,9 +38,7 @@ it('addition test 3 digit number', function () {
         homepage.enterSecondNumber('919')
         browser.sleep(2000)
         homepage.clickGo();
-
-        
-        browser.sleep(5000)
+		browser.sleep(5000)
 
     });
 
@@ -57,9 +51,7 @@ it('addition test 4 digit number', function () {
         homepage.enterSecondNumber('1919')
         browser.sleep(2000)
         homepage.clickGo();
-
-        
-        browser.sleep(5000)
+		browser.sleep(5000)
 
     });
 
