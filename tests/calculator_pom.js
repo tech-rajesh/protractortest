@@ -38,8 +38,8 @@ it('addition test', function () {
         homepage.getAppURL('https://juliemr.github.io/protractor-demo/')
         expect(browser.getCurrentUrl()).toBe('https://juliemr.github.io/protractor-demo/');
 
-        homepage.enterFirstNumber('181')
-        homepage.enterSecondNumber('191')
+        homepage.enterFirstNumber('1819')
+        homepage.enterSecondNumber('1919')
         browser.sleep(2000)
         homepage.clickGo();
 
