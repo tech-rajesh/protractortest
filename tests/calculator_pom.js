@@ -11,6 +11,25 @@ describe('demo calulator test', function () {
         homepage.enterSecondNumber('9')
         browser.sleep(2000)
         homepage.clickGo();
+		
+		
+		
+		browser.sleep(4000)
+
+    });
+	
+	it('addition test 1 digit number', function () {
+        // browser.get('https://juliemr.github.io/protractor-demo/');
+        homepage.getAppURL('https://juliemr.github.io/protractor-demo/')
+        expect(browser.getCurrentUrl()).toBe('https://juliemr.github.io/protractor-demo/');
+
+        homepage.enterFirstNumber('9')
+        homepage.enterSecondNumber('8')
+        browser.sleep(2000)
+        homepage.clickGo();
+		
+		
+		
 		browser.sleep(4000)
 
     });
