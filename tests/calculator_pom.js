@@ -7,8 +7,8 @@ describe('demo calulator test', function () {
         homepage.getAppURL('https://juliemr.github.io/protractor-demo/')
         expect(browser.getCurrentUrl()).toBe('https://juliemr.github.io/protractor-demo/');
 
-        homepage.enterFirstNumber('8')
-        homepage.enterSecondNumber('9')
+        homepage.enterFirstNumber('81')
+        homepage.enterSecondNumber('91')
         browser.sleep(2000)
         homepage.clickGo();
 		
