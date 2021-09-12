@@ -3,6 +3,8 @@ var HtmlScreenshotReporter = require('protractor-jasmine2-screenshot-reporter');
 var reporter = new HtmlScreenshotReporter({
   dest: 'target_out_demo/screenshots',
   filename: 'my-report.html'
+
+  
 });
 
 // An example configuration file.
