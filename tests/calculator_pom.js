@@ -11,7 +11,6 @@ describe('demo calulator test', function () {
         homepage.enterSecondNumber('91')
         browser.sleep(2000)
         homepage.clickGo();
-		
 		browser.sleep(4000)
 
     });
@@ -25,9 +24,6 @@ describe('demo calulator test', function () {
         homepage.enterSecondNumber('8')
         browser.sleep(2000)
         homepage.clickGo();
-		
-		
-		
 		browser.sleep(4000)
 
     });
