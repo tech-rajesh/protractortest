@@ -68,13 +68,13 @@ it('addition test 3 digit number - 819 & 919', function () {
 
     });
 
-it('addition test 4 digit number - 1819 & 1919', function () {
+it('addition test 4 digit number - 18191 & 19191', function () {
         // browser.get('https://juliemr.github.io/protractor-demo/');
         homepage.getAppURL('https://juliemr.github.io/protractor-demo/')
         expect(browser.getCurrentUrl()).toBe('https://juliemr.github.io/protractor-demo/');
 
-        homepage.enterFirstNumber('1819')
-        homepage.enterSecondNumber('1919')
+        homepage.enterFirstNumber('18191')
+        homepage.enterSecondNumber('19191')
         browser.sleep(2000)
         homepage.clickGo();
 		browser.sleep(5000)
